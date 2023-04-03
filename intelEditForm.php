@@ -7,7 +7,8 @@
  */
 
 
-    $data = readIntelFile($sector, $sub);
+    // $data = readIntelFile($sector, $sub);
+    $data = "";
     $readonly = $edit ? "" : "readonly";
     $edit_url = getUrlParams();
     if (!$intel){

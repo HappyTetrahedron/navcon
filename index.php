@@ -72,15 +72,6 @@ error_reporting(E_ALL);
             $showIntel = true;
         }
             
-                // Handle updates to data here.
-        $intel_post_data = "NOTHING";
-        if (isset($_POST['intel-data'])) {
-            //$intel_update = $_POST['intel'];
-            //lookupIntelFile($file)
-            $intel_post_data = filter_input(INPUT_POST,'intel-data');
-            
-            updateIntelFile($sector,$sub,$intel_post_data);
-        }
         //echo($intel_post_data);
         
         
@@ -182,42 +173,6 @@ error_reporting(E_ALL);
 	    }
 	}
 
-	// Gets time of last commit to whichever branch
-	// Default is master of course
-	function getLatestCommit() {
-            global $update_type;
-            $fp = fopen('./../../log.txt','a');
-            fwrite($fp,"\nupdate type (getLatestCommit(): ".$update_type);
-            fclose($fp);
-	    $context = stream_context_create(
-		array(
-		    "http" => array(
-			"header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
-		    )
-		)
-	    );
-	    $url = "https://api.github.com/repos/tsnrp/navcon/commits/".$update_type;
-	    $json = file_get_contents($url, false, $context);
-	    $arr = json_decode($json, true);
-	    $date = $arr["commit"]["committer"]["date"];
-	    return $date;
-	}
-        
-        // Redirects with the fancy extra stuff on the end of the url
-	function redirectWithQuery() {
-            global $update_type;
-            global $newQuery;
-	    //$dir1 = dirname(__DIR__,2);
-	    if (strlen($newQuery)>0) {
-		$r = "./../../NavUpdate.php?".$newQuery."&update_type=".$update_type; // This may need changed someday
-	    } else {
-		$r = "./../../NavUpdate.php?update_type=".$update_type;
-	    }
-	//    echo "Redirecting to...".$r;
-	//    exit();
-	    header("Location: ".$r, TRUE, 303);
-	    exit();
-	}
         
         function getUrlParams() {
             global $classified;
@@ -360,32 +315,6 @@ error_reporting(E_ALL);
 			return $file;
 		}
 	}
-        /**
-         * get the File specified by system and sector (sector and sub, respectively - dammmit whoever first made this!
-         * @param type $sector
-         * @param type $sub
-         * @return string
-         */
-        function lookupIntelFile($sector,$sub) {
-            $f = "./../../Intelligence Files/";
-            if (!file_exists($f)) {
-                mkdir($f);
-            }
-            $f.= "systems/";
-            if (!file_exists($f)) {
-                mkdir($f);
-            }
-            $f.= $sector."/";
-            if (!file_exists($f)) {
-                mkdir($f);
-            }
-            if ($sub != "") {
-                $myFile = $f.$sub.".txt";
-            } else {
-                $myFile = $f.$sector.".txt";
-            }
-            return $myFile;
-        }
 
 	function readEntitesFile($classified,$sector) {
 		$file=lookupClassifiedFile($classified,"sectors/".$sector."/entities.txt");
@@ -396,34 +325,20 @@ error_reporting(E_ALL);
 				$line=str_replace("\r","",$line);
 				$line=explode(",",$line);
 				$entity=array();
-				$entity['name']=$line[0];
-				$entity['type']=$line[1];
-				$entity['loc']=$line[2];
-				$isClassified=(isset($line[3]) && $line[3]=="Classified");
-				if (!$isClassified || $classified) {
-					array_push($ret,$entity);
-				}
+                if (count($line) > 1) {
+                    $entity['name']=$line[0];
+                    $entity['type']=$line[1];
+                    $entity['loc']=$line[2];
+                    $isClassified=(isset($line[3]) && $line[3]=="Classified");
+                    if (!$isClassified || $classified) {
+                        array_push($ret,$entity);
+                    }
+                }
 			}
 			return $ret;
 		}
 		return array();
 	}
-        
-        function readIntelFile($sector,$sub) {
-            $file = lookupIntelFile($sector,$sub);
-            if (file_exists($file)) {
-                $intelDoc = file_get_contents($file);
-            } else { 
-                return false;
-            }
-            return $intelDoc;
-        }
-        
-        function updateIntelFile($sector,$sub,$data) {
-            $file = lookupIntelFile($sector,$sub);
-            echo($file);
-            file_put_contents($file,$data);
-        }
         
 
 	function getSectorInfo($classified,$sector) {
@@ -711,7 +626,7 @@ $(function() {
                             //$getString=substr($getString,0,-1);
                     }
                     $getString.= $showIntel ? "&Intel" : "";
-                    echo("<button onclick=\"location.href='index.php$getString'\" class=\"dropbtn$intelButtonActiveText\">INTEL</button>");
+                    // echo("<button onclick=\"location.href='index.php$getString'\" class=\"dropbtn$intelButtonActiveText\">INTEL</button>");
                     ?>
 
                     <input type="text" name="search" id="search-bar" onkeyup="systemSearch()" placeholder="Search for system...">
@@ -822,7 +737,7 @@ $(function() {
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             $("#gateNet").attr("src","<?=$gateImg?>");
                                         } else {
-                                            <?php $gateImg= ($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
+                                            <?php $gateImg = "img/gateNetworkCombined.png"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             $("#gateNet").attr("src","<?=$gateImg?>");
                                         }
@@ -859,8 +774,8 @@ $(function() {
                                             }
                                     }
                                 ?>];
-                                var imgOrigX=1654;
-                                var imgOrigY=1080;    
+                                var imgOrigX=2711;
+                                var imgOrigY=837;    
 				function systemClick(event) {
 					var el=document.getElementById("gateNet");
 					//we need to convert the information that we get in the event info how far into the image has been clicked
@@ -893,6 +808,7 @@ $(function() {
 					var height=event.currentTarget.clientHeight;
 					var clickFromMidY=y-(height/2);
 					var clickY=(clickFromMidY*(1/imageScale))+(imgOrigY/2);
+                    console.log("Coordinates as transformed: " + clickX + "," + clickY);
 
                                         for (i=0; i<clickables.length; i++) {
                                             var deltaX=clickX-clickables[i].x;
@@ -910,7 +826,7 @@ $(function() {
                                         include "Utilities/spinner.php";
                                     }?>
                                     <div id="arc-map" class="" style="height: 100%;">
-                                            <?php $gateImg= ($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
+                                            <?php $gateImg = "img/gateNetworkCombined.png"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             <img id="gateNet" class="show" src="<?=$gateImg?>"/>
                                             <?php if (!$mobile) {?>
@@ -951,7 +867,7 @@ $(function() {
                                             });
                                             //$("#handle").on("mouseup", function(event) {
                                             $(map).on("mouseup", function(event) { 
-                                                console.log(mouseCanClick);
+                                                // console.log(mouseCanClick);
                                                 if (mouseCanClick) {
                                                     systemClick(event);
                                                 }
@@ -1067,8 +983,8 @@ $(function() {
                                         function rescale( uiValue = 100 , reposition = true) {
                                                     // image size - assumes the size of the image, which propably isn't the best
                                                     // practice, but we're going with it for now.
-                                                    var imgOrigX=1654;
-                                                    var imgOrigY=1080;
+                                                    var imgOrigX=2711;
+                                                    var imgOrigY=837;
                                                     
                                                     // Old scale values
                                                     var scaleXConstOld = imgOrigX * lastSliderValue / 100;

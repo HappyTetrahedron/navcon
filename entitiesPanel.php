@@ -60,7 +60,7 @@
         ?>
     </div>
     <div id="panel-buttons" style="display: flex;">
-        <button class="dropbtn<?=$showIntel ? " active" : ""?>" id="toggle-intel" onclick="location.href='<?=$edit_url?>'"><?=$intelType?> Intel</button>
+        <!-- <button class="dropbtn<?=$showIntel ? " active" : ""?>" id="toggle-intel" onclick="location.href='<?=$edit_url?>'"><?=$intelType?> Intel</button> -->
     <?php
         
 

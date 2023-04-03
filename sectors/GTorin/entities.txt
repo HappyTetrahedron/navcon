@@ -14,4 +14,3 @@ Kiquin Foundry,O,4
 Initi,S,5
 Magrath Mining,O,5
 Kalange Ores,O,5
-
