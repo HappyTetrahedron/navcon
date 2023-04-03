@@ -16,20 +16,19 @@ FACTOR_Y=$( echo "$NEW_H / $ORIG_H" | bc -l )
 
 for sector in sectors/*
 do
-	ARC="$( cat "$sectors/sector.txt" | grep -oP '^[^,]+' )
+	ARC="$( cat "$sector/sector.txt" | grep -oP '^[^,]+' )"
 
 	if [[ $ARC == $AFFECT ]]
 	then
 
-		ORIG="$( cat "$sectors/mainMapPos.txt" )"
+		ORIG="$( cat "$sector/mainMapPos.txt" )"
 		ORIG_X=${ORIG%%,*}
 		ORIG_Y=${ORIG##*,}
 
+		NEW_X="$( echo "$ORIG_X * $FACTOR_X + $X_OFFSET" | bc -l | awk '{ print int($1 + 0.5) }')"
+		NEW_Y="$( echo "$ORIG_Y * $FACTOR_Y + $Y_OFFSET" | bc -l | awk '{ print int($1 + 0.5) }')"
 
-		NEW_X = $( echo "$ORIG_X * $FACTOR_X + $X_OFFSET" | bc -l | awk '{ print int($1 + 0.5) }')
-		NEW_Y = $( echo "$ORIG_Y * $FACTOR_Y + $Y_OFFSET" | bc -l | awk '{ print int($1 + 0.5) }')
-
-		echo "$NEW_X,$NEW_Y" > "$sectors/mainMapPos.txt"
+		echo "$NEW_X,$NEW_Y" > "$sector/mainMapPos.txt"
 	fi
 done
 
