@@ -1,0 +1,147 @@
+.dropbtn {
+	background-image: url('img/btnOffSmall.png');
+    background-size: 187px 45px;
+	height: 45px;
+	width: 187px;
+    background-repeat: no-repeat;
+    border: none;
+	text-align: right;
+	padding-right: 20px;
+	white-space: nowrap;
+        flex-shrink: 0;
+}
+
+.dropbtn.active {
+	background-image: url('img/btnOnSmall.png');
+}
+
+.dropbtn:hover {/*}, .dropbtn:focus {*/
+	background-image: url('img/btnOnSmall.png');
+}
+
+.dropbtn.disabled {
+	color:#808080;
+}
+
+.dropbtn.disabled:hover{/*, .dropbtn.disabled:focus {*/
+	background-image: url('img/btnOffSmall.png');
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+    position: absolute;
+    overflow: auto;
+    z-index: 1;
+}
+.dropdown-content.opaque {
+	background-color: #000000;
+}
+
+.dropdown-content a {
+    display: block;
+	padding-right: 20px;
+	padding-top: 11px;
+}
+.dropdown-entry {
+    display: none;
+}
+.dropdown-entry.show {
+	background-image: url('img/btnOffSmall.png');
+    background-size: 187px 45px;
+	height: 45px;
+	width: 187px;
+    background-repeat: no-repeat;
+	text-align: right;
+        padding-right: 20px;
+        border: none;
+        display: inline-block;
+}
+
+.dropdown-entry.selected {
+	background-image: url('img/btnOnSmall.png');
+}
+
+.dropdown-entry:hover, .dropdown-entry:focus {
+	background-image: url('img/btnOnSmall.png');
+}
+
+/*.show {
+	display: block;
+}*/
+
+#search-bar {
+    background-image: url('img/search-bar.png'); /* Add a search icon to input */
+    background-position: -5px -0px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    background-color: transparent;
+    background-size: 200px 45px;
+    width: 200px; /* Full-width */
+    height: 45px;
+    font-size: 18px; /* Increase font-size */
+    padding: 12px 10px 10px 15px; /* Add some padding */
+    border: none;
+    margin-bottom: 6px; /* Add some space below the input */
+    z-index: 5;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: Calibri,Helvetica,Arial;
+    font-weight: bold;
+    font-size: 18;
+    font-style: italic;
+
+}
+
+.system-menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+    /*width: 70%;*/
+}
+.system-menu.show {
+    display: block;
+    overflow: auto;
+    max-height: 80vw;
+}
+
+#gateNet {
+    /*height: 95%;*/
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    cursor: grab;
+    margin-left: 30px;
+/*    bottom: 0px;
+    right: 0px;
+    display: none;*/
+}
+#gateNet.show {
+    display: block;
+}
+
+#arc-map {
+    display: none;
+}
+#arc-map.show {
+    display: block;
+}
+
+#slider-vertical {
+    margin-top: 20vh;
+    background: #00368a;
+    border: #3ef7ff;
+}
+
+#slider-vertical span {
+    background: #005fff;
+    border: 1px solid #1a8eb6;
+}
+
+#slider-vertical div {
+    background: #00368a;
+    border: #3ef7ff;
+}
