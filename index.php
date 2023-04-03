@@ -5,25 +5,22 @@ error_reporting(E_ALL);
 
 	session_start();	
 	//---- RELEASE VERSION ----//
-        $version = "13.8";
+        $version = "14.0";
         
-        $battleNet = "img/BattleLines/gateNetworkLowerCurrent.png";
-        $battleNetUpper = "img/BattleLines/gateNetworkUpperCurrent.png";
+        $battleNet = "img/BattleLines/gateNetworkCombinedCurrent.png";
         
-        if (!file_exists($battleNetUpper)) {
-            $battleNetUpper = "img/gateNetworkUpper.png";
-        }
         if (!file_exists($battleNet)) {
-            $battleNet = "img/BattleLines/gateNetworkLowerCurrent.png";
+            $battleNet = "img/gateNetworkCombined.jpg";
         }
         
         // This will be used for better UX for toggling between classified and regular mode. Assuming it works properly. 
         // TODO: Also should be adapted at some point for other uses.
-        $_SESSION["previousPage"] = $_SESSION["currentPage"];
+        if (array_key_exists("currentPage",$_SESSION)) {
+            $_SESSION["previousPage"] = $_SESSION["currentPage"];
+        }
         $host = filter_input(INPUT_SERVER, "HTTP_HOST");
         $uri = filter_input(INPUT_SERVER, "REQUEST_URI");
         $_SESSION["currentPage"] =  "http://$host$uri";
-        //echo($_SESSION['currentPage']);
         
         
         
@@ -611,7 +608,7 @@ $(function() {
                 <span></span>
 		<div id="sector-menu" class="dropdown" style="z-index:1;">
                     <button onclick="toggleSystemView()" id="systemButton" class="dropbtn">SYSTEMS</button>
-                    <button onclick="location.href='index.php?<?=$classifiedHref?>gateNetwork=<?php printf($gateButtonDest) ?>'" class="dropbtn<?=isEmpty($sector) ? " active" : ""?>"><?php printf($gateNetText);?></button>
+                    <button onclick="location.href='index.php'" class="dropbtn<?=isEmpty($sector) ? " active" : ""?>">GATE NET</button>
                     <?php
                     $intelButtonActiveText=$classified ? " active" : "" ;
                     $getString= $classified ? "?" : "?Classified&";
@@ -733,11 +730,11 @@ $(function() {
                                         console.log("Trying to toggle..." + isDefaultImage);
                                         if (isDefaultImage) {
                                             console.log("trying to change to temp...");
-                                            <?php $gateImg= ($gateNetwork=="Upper") ? "$battleNetUpper" : "$battleNet";
+                                            <?php $gateImg="$battleNet";
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             $("#gateNet").attr("src","<?=$gateImg?>");
                                         } else {
-                                            <?php $gateImg = "img/gateNetworkCombined.png"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
+                                            <?php $gateImg = "img/gateNetworkCombined.jpg"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             $("#gateNet").attr("src","<?=$gateImg?>");
                                         }
@@ -762,12 +759,12 @@ $(function() {
                                                     if (file_exists($mapPos)) {
                                                             $handle = fopen(lookupClassifiedFile($classified,"sectors/".$name."/mainMapPos.txt"), "r");
                                                             if ($handle) {
-                                                                    if (getSectorInfo($classified,$name)['network']==$gateNetwork){
+                                                                    //if (getSectorInfo($classified,$name)['network']==$gateNetwork){
                                                                             $xy=explode(",",fgets($handle));
                                                                             if (count($xy)==2) {
                                                                                     printf("{x:%d, y:%d, url:\"?%ssector=%s\"},",$xy[0],$xy[1],$classifiedHref,$name);
                                                                             }
-                                                                    }
+                                                                    //}
                                                                     fclose($handle);
                                                             }
                                                     }
@@ -826,7 +823,7 @@ $(function() {
                                         include "Utilities/spinner.php";
                                     }?>
                                     <div id="arc-map" class="" style="height: 100%;">
-                                            <?php $gateImg = "img/gateNetworkCombined.png"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
+                                            <?php $gateImg = "img/gateNetworkCombined.jpg"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             <img id="gateNet" class="show" src="<?=$gateImg?>"/>
                                             <?php if (!$mobile) {?>

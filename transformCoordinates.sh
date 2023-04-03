@@ -1,15 +1,20 @@
 #!/bin/bash
 
+# ORIG_W=1654
+# ORIG_H=1080
+# NEW_W=1449
+# NEW_H=946
+# X_OFFSET=0
+# Y_OFFSET=-58
+# AFFECT=Upper
+
 ORIG_W=1654
 ORIG_H=1080
-
-NEW_W=1449
-NEW_H=946
-
-X_OFFSET=0
-Y_OFFSET=-58
-
-AFFECT=Upper
+NEW_W=1311
+NEW_H=857
+X_OFFSET=1380
+Y_OFFSET=-25
+AFFECT=Lower
 
 FACTOR_X=$( echo "$NEW_W / $ORIG_W" | bc -l )
 FACTOR_Y=$( echo "$NEW_H / $ORIG_H" | bc -l )
