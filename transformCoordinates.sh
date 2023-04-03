@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 ORIG_W=1654
 ORIG_H=1080
@@ -11,9 +11,8 @@ Y_OFFSET=-58
 
 AFFECT=Upper
 
-
-FACTOR_X = $( echo "$NEW_W / $ORIG_W" | bc -l )
-FACTOR_Y = $( echo "$NEW_H / $ORIG_H" | bc -l )
+FACTOR_X=$( echo "$NEW_W / $ORIG_W" | bc -l )
+FACTOR_Y=$( echo "$NEW_H / $ORIG_H" | bc -l )
 
 for sector in sectors/*
 do
