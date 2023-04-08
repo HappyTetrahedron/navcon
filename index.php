@@ -771,8 +771,8 @@ $(function() {
                                             }
                                     }
                                 ?>];
-                                var imgOrigX=2711;
-                                var imgOrigY=837;    
+                                var imgOrigX=2691;
+                                var imgOrigY=1080;    
 				function systemClick(event) {
 					var el=document.getElementById("gateNet");
 					//we need to convert the information that we get in the event info how far into the image has been clicked
@@ -980,8 +980,8 @@ $(function() {
                                         function rescale( uiValue = 100 , reposition = true) {
                                                     // image size - assumes the size of the image, which propably isn't the best
                                                     // practice, but we're going with it for now.
-                                                    var imgOrigX=2711;
-                                                    var imgOrigY=837;
+                                                    var imgOrigX=2691;
+                                                    var imgOrigY=1080;
                                                     
                                                     // Old scale values
                                                     var scaleXConstOld = imgOrigX * lastSliderValue / 100;

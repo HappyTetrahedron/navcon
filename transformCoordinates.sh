@@ -33,6 +33,8 @@ do
 		NEW_X="$( echo "$ORIG_X * $FACTOR_X + $X_OFFSET" | bc -l | awk '{ print int($1 + 0.5) }')"
 		NEW_Y="$( echo "$ORIG_Y * $FACTOR_Y + $Y_OFFSET" | bc -l | awk '{ print int($1 + 0.5) }')"
 
+		echo "Transforming $sector from $ORIG_X:$ORIG_Y to $NEW_X:$NEW_Y"
+
 		echo "$NEW_X,$NEW_Y" > "$sector/mainMapPos.txt"
 	fi
 done
