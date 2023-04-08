@@ -10,7 +10,7 @@ error_reporting(E_ALL);
         $battleNet = "img/BattleLines/gateNetworkCombinedCurrent.png";
         
         if (!file_exists($battleNet)) {
-            $battleNet = "img/gateNetworkCombined.jpg";
+            $battleNet = "img/gateNetworkCombined.png";
         }
         
         // This will be used for better UX for toggling between classified and regular mode. Assuming it works properly. 
@@ -734,7 +734,7 @@ $(function() {
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             $("#gateNet").attr("src","<?=$gateImg?>");
                                         } else {
-                                            <?php $gateImg = "img/gateNetworkCombined.jpg"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
+                                            <?php $gateImg = "img/gateNetworkCombined.png"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             $("#gateNet").attr("src","<?=$gateImg?>");
                                         }
@@ -823,7 +823,7 @@ $(function() {
                                         include "Utilities/spinner.php";
                                     }?>
                                     <div id="arc-map" class="" style="height: 100%;">
-                                            <?php $gateImg = "img/gateNetworkCombined.jpg"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
+                                            <?php $gateImg = "img/gateNetworkCombined.png"; //($gateNetwork=="Upper") ? "img/gateNetwork".$gateNetwork.".png" : "img/gateNetworkLowerTransparent.png";
                                             $gateImg=lookupClassifiedFile($classified,$gateImg);?>
                                             <img id="gateNet" class="show" src="<?=$gateImg?>"/>
                                             <?php if (!$mobile) {?>
