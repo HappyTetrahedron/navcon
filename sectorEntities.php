@@ -29,6 +29,8 @@
 			$entity['description'] = "Science Station Post";
 		} else if ($entity['type'] == "F") {
 			$entity['description'] = "Refinery";
+		} else if ($entity['type'] == "ART") {
+			$entity['description'] = "Art Installation";
 		} else if ($entity['type'] == "B" || $entity['type'] == "SB") {
 			$entity['description'] = "Sensor Buoy";
                 } else if ($entity['type'] == "CR") {

@@ -1,7 +1,31 @@
 Norayne Gate,G,2
-DS-76,S,4
-DS-01,S,4
-Serrin,O,4
-Soulin,S,4
-Harrling,S,4
-RS-9992,S,4
+WP-NA,WP,2
+WP-NB,WP,2
+WP-NC,WP,2
+WP-ND,WP,2
+WP-E,WP,3
+DS-76,DS,4
+DS-01,DS,4
+Serrin,V,4
+Soulin,V,4
+Harrling,V,4
+RS-9992,R,4
+Charon Forward Command,C,5
+SY-101,SY,5
+WP-1011,WP,5
+WP-101,WP,5
+I-474,I,6
+WP-33,WP,7
+DS-30,DS,7
+DS-37,DS,7
+Triton Gate,G,7
+WP-(-2),WP,8
+DS-7,DS,8
+Waypoint 46 Gate,G,8
+SY-520,SY,9
+SY-519,SY,9
+Casarosso,V,9
+I-465,I,9
+I-442,M,9
+I-410,M,9
+I-407,M,9

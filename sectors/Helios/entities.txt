@@ -8,7 +8,7 @@ Tibur Gate,G,3
 Polydeukes Market,V,4
 Castor Gate,G,4
 Planet Helios,P,5
-Helios Administration,V,5
+Helios Memorial,ART,5
 Helios Habitation,V,5
 Helios Command,C,6
 WP-81K,WP,6

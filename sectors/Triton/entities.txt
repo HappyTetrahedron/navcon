@@ -1,0 +1,24 @@
+Waypoint 89 Gate,G,1
+WP-88,WP,1
+WP-89,WP,1
+SY-280,SY,2
+Tarnis Nebula Refinery,I,2
+I-280,I,2
+I-601,I,2
+DS-20,DS,3
+Farosh Denabite,I,3
+Farosh,V,3
+Triton Refuge,V,5
+Cassandra Observation,R,6
+Cassandra,H,6
+SY-402,SY,7
+I-402,I,7
+Denabite Derby,I,7
+Tethys Gate,G,8
+WP-43R,WP,8
+DS-44,DS,8
+WP-43L,WP,8
+I-566,I,10
+Charon Gate,G,11
+WP-062,WP,11
+DS-62,DS,11
