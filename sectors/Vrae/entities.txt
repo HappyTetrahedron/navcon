@@ -1,0 +1,15 @@
+Jhohara Gate,G,1
+Gilmik Mining,M,1
+Routing Office,V,1
+Il'Is'Kar Gate,G,2
+Defense Grid C,W,2
+Golgagi,Y,5
+Inzisda Nebula Refinery,M,5
+Vrae Outpost,C,5
+Vrae Pulsar,PUL,7
+Khoros Gate,G,7
+Ka'Morlin Gate,G,9
+Defense Grid A,W,9
+Defense Grid B,W,9
+Defense Grid D,W,9
+Athorn Gate,G,12

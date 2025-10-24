@@ -29,6 +29,8 @@
 			$entity['description'] = "Science Station Post";
 		} else if ($entity['type'] == "F") {
 			$entity['description'] = "Refinery";
+		} else if ($entity['type'] == "PUL") {
+			$entity['description'] = "Pulsar";
 		} else if ($entity['type'] == "ART") {
 			$entity['description'] = "Art Installation";
 		} else if ($entity['type'] == "B" || $entity['type'] == "SB") {
@@ -131,12 +133,6 @@
 		// If target equals e.g. "Atlantis Gate", retrieve the "Atlantis" string
 		$target = trim(explode('Gate', $target)[0]);
 		
-		// Convert double names
-		if ($target == "Poseidon") $target = "Poseidon Rift";
-		if ($source == "Poseidon Rift") $source = "Poseidon";
-		if ($target == "Euphini") $target = "Euphini Expanse";
-		if ($source == "Euphini Expanse") $source = "Euphini";
-
 		// Read entities and create button
 		if (!isEmpty($source)) {
 			foreach (readEntitesFile($classified,$target) as $entity) {
