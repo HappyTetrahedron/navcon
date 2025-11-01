@@ -1,28 +1,28 @@
-I-18A,S,1
-I-82S,S,1
-I-902S,S,1
-I-45B,S,1
-I-32A,S,1
-I-23,S,2
-I-91,S,2
-I-002,S,2
+I-902S,F,1
+I-82S,F,1
+I-18A,F,1
+I-32A,F,1
+I-45B,I,1
 Cerberus Gate,G,2
+I-23,I,2
+I-002,I,2
+I-91,I,2
 DS-33,S,3
-R-56X,S,3
-DS-121,S,4
+R-56X,R,3
 DS-96,S,4
 DS-47,S,4
-P-282,S,5
-P-382,S,5
-Krisenda Command,S,6
-WP-24,O,6
-WP-88,O,6
+DS-121,S,4
+P-282,I,5
+P-382,I,5
+Krisenda Command,C,6
+WP-88,W,6
+WP-24,W,6
 Waypoint 60 Gate,G,7
-P-383,S,7
-P-11,S,7
-P-73,S,7
-Brunell,S,8
-Stephenson,S,8
+P-11,I,7
+P-73,I,7
+P-383,I,7
+Stephenson,V,8
+Brunell,V,8
 DS-54,S,9
 DS-43,S,10
 DS-001,S,10

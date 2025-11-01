@@ -31,6 +31,12 @@
 			$entity['description'] = "Refinery";
 		} else if ($entity['type'] == "PUL") {
 			$entity['description'] = "Pulsar";
+		} else if ($entity['type'] == "SLS") {
+			$entity['description'] = "Slingshot Installation";
+		} else if ($entity['type'] == "MEG") {
+			$entity['description'] = "Megastructure";
+		} else if ($entity['type'] == "UNK") {
+			$entity['description'] = "Unknown";
 		} else if ($entity['type'] == "ART") {
 			$entity['description'] = "Art Installation";
 		} else if ($entity['type'] == "B" || $entity['type'] == "SB") {

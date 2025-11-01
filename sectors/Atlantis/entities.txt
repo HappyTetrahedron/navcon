@@ -1,117 +1,135 @@
 Waypoint 60 Gate,G,1
-RS-00,S,2
-WP-573,O,4
-WP-216,O,4
-WP-771,O,4
-WP-919,O,4
-SY-23X,O,4
-SY-67X,O,4
-SY-12X,O,4
+B-6V,UNK,1
+B-2C,UNK,1
+B-9F,UNK,1
+B-5T,UNK,1
+B-8U,UNK,1
+B-4J,UNK,2
+B-4H,UNK,2
+B-7R,UNK,2
+B-6G,UNK,2
+B-3D,UNK,2
+RS-00,R,2
+B-2Q,UNK,3
+B-9P,UNK,3
+B-0E,UNK,3
+B-6S,UNK,3
+B-7Y,UNK,3
+B-1A,UNK,3
+WP-573,W,4
+WP-216,W,4
+WP-771,W,4
+SY-12X,Y,4
+SY-67X,Y,4
+SY-23X,Y,4
+WP-919,W,4
+CB-21,C,4
 ATL-131,S,4
-ATL-322,S,4
 ATL-239,S,4
-CB-21,S,4
+ATL-322,S,4
 KR1,S,5
-SK1,S,5
-TG1,S,5
 AV1,S,5
-WP3,O,5
-WP1,0,5
-WP2,O,5
-Novara,S,6
-Leon,S,6
-DS-11,S,6
-Oshin,S,6
-Alaine,S,6
-Volante,S,6
+TG1,S,5
+SK1,S,5
+WP2,W,5
+WP1,W,5
+WP3,W,5
 Al'Mare Gate,G,6
-M-668,S,7
-Eris,S,7
-I-53,S,7
-I-19,S,7
-Amoy,S,7
-Tetsu,S,7
-Take,S,7
+Novara,V,6
+Oshin,V,6
+Alaine,V,6
+Volante,V,6
+Leon,V,6
+DS-11,S,6
+I-19,I,7
+Amov,V,7
+SY-23,Y,7
+Take,V,7
+Tetsu,V,7
 DS-42,S,7
+Eris,V,7
+SY-91,Y,7
+I-53,I,7
+M-668,I,7
 Titan Gate,G,7
-SY-23,O,7
-SY-91,O,7
-DS-39,S,8
-DS-88,S,8
-TSAF Greyson,S,8
 DS-65,S,8
-WP-44,O,8
-WP-53,O,8
-SY-11,O,8
-SY-72,O,8
-WP-01,O,8
-WP-09,O,8
-WP-89,O,8
-SY-38X,O,8
+DS-88,S,8
+DS-39,S,8
+SY-11,Y,8
+SY-38X,Y,8
+SY-72,Y,8
+WP-44,W,8
+WP-89,W,8
+WP-53,W,8
+WP-01,W,8
+WP-09,W,8
+TSAF Greyson,SHIP,8
+WP-909,W,9
+WP-415,W,9
 DS-91,S,9
-WP-415,O,9
-WP-909,O,9
-WP-213,O,10
-WP-150,O,10
-WP-881,O,10
-M-595,S,11
-M-226,S,11
-M-209X,S,11
-M-420,S,11
-M-010,S,11
-M-082,S,11
-M-723,S,11
-Esperon,S,11
-Castillon,S,11
-RS-03,S,12
-Wynter,S,12
-M-059,S,12
-M-820,S,12
-M-097,S,12
-M-829,S,12
-M-774,S,12
-Big N Large Pharmaceutical,O,12
-Dalanger Propulsion,O,12
-Yuki Luxory Shuttles,O,12
-Southalk Refinary,O,12
-Sprout Bio Products,O,12
-RS-26X,S,13
-Carthen,S,13
-I-07,S,13
-Nakada,S,13
-Kutsuo,S,13
-Alken,S,13
+WP-881,W,10
+WP-150,W,10
+WP-213,W,10
+M-226,I,11
+M-082,I,11
+M-010,I,11
+M-209X,I,11
+M-420,I,11
+M-723,I,11
+M-595,I,11
+Esperon,V,11
+Castillon,V,11
+M-820,I,12
+M-774,I,12
+M-059,I,12
+M-097,I,12
+M-829,I,12
+RS-03,R,12
+Wynter,V,12
+Southalk Refinery,F,12
+Big N Large Pharmaceutical,S,12
+Sprout Bio Products,S,12
+Dalenger Propulsion,I,12
+Yuki Luxury Shuttles,I,12
+I-07,I,13
+Nakada,V,13
+SY-56,Y,13
+Kutsuo,V,13
+Alken,V,13
 DS-68,S,13
-SY-56,O,13
+Carthen,V,13
+RS-26X,R,13
+Waypoint 52 Gate,G,14
 DS-28,S,14
 DS-92,S,14
-Point Nori,O,14
-Victor Refinary,O,14
-Waypoint 52 Gate,G,14
-M-738,S,16
-M-184,S,16
+Victor Refinery,F,14
+Point Nori,I,14
 Cerberus Gate,G,16
-M-865,S,16
-Breath Easy Inc,O,16
-SY-235,O,17
-SY-230,0,17
-Atlantis Command,S,17
+M-184,I,16
+M-738,I,16
+M-865,I,16
+Breath Easy Inc,I,16
+RS-41,R,17
 Gate Control,S,17
-Korczynski Enterprises,O,17
-RS-41,S,17
+Atlantis Command,C,17
+SY-230,Y,17
+SY-235,Y,17
+Korczynski Enterprises,I,17
 Orwed,S,18
+RS-261,R,18
+Honor,V,18
 Ordan,S,18
-Honor,S,18
-RS-261,S,18
-Seer Entertainment Systems,O,18
-Arietis Gate,G,18
-Elnan,S,18
 A'Aureln,S,18
+MatildaBH,H,18
+Matilda,UNK,18
+Elnan,S,18
+Arietis Gate,G,18
+Seer Entertainment Systems,I,18
 DS-34,S,19
 DS-91,S,19
-M-810,S,19
-M-991,S,19
-M-028,S,19
-Bidderlyn Heavy Engineering,O,19
-Trueson Instruments,O,20
-RS-21,S,20
+M-810,I,19
+M-991,I,19
+M-028,I,19
+Bidderlyn Heavy Engineering,I,19
+Trueson Instruments,I,20
+RS-21,R,20

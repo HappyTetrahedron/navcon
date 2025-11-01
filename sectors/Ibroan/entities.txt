@@ -1,27 +1,29 @@
-Planet Ya'anu,P,1
-E'yikanu Control,C,1
-101100 Denabite,F,2
-Defense 1,D,2
-Defense 2,D,2
-Defense 3,D,2
-Xanxix Smeltery,F,3
-Ximni WP 1,WP,3
-Ximni WP 2,WP,3
-Ximini Ores,M,3
-Tu-il Research,R,5
-Uvizmai Control,D,6
+Ya'Anu,P,1
+E'yikanu Control,S,1
+WP-01,W,2
+WP-56,W,2
+WP-17,W,2
+101100 Denabite,I,2
+Xanxix Smeltery,M,3
+Xuni Ores,M,3
+WP 1,S,3
+WP 2,S,3
+Setmari Gate,G,5
+Tu-il Research,S,5
+Ukufa,H,5
 Sumri Gate,G,6
-Kralien CR-15,CR,6
-Kralien WP-20,WP,6
-Kralien WP-21,WP,6
-Kralien SB-9,SB,6
+CR-15,CR,6
+SB-9,SB,6
+WP-20,SB,6
+WP-21,SB,6
+Uvizmai Control,S,6
 Drenan Gate,G,7
-Intas,SKN-B,7
-Ut'Att Command,C,8
-Aunea Fabricators,I,8
-Kralien WP-48,WP,8
-Kralien WP-52,WP,8
-Kralien WP-33,WP,8
-Oorect Mining,M,8
-Kralien WP-29,WP,8
-Kralien WP-16,WP,8
+Intas,S,7
+Ut'Att Command,S,8
+WP-16,W,8
+WP-29,W,8
+WP-33,W,8
+WP-48,W,8
+WP-52,W,8
+Aunea Fabricators,Y,8
+Oorect Mining,I,8

@@ -1,2 +1,37 @@
-Acantha,G,1
-Sumri,G,8
+Acantha Gate,G,1
+Tilminra Welcome,S,1
+Mirilis,S,1
+Sondo,S,1
+WP-922,W,1
+WP-881,W,1
+WP-749,W,1
+WP-901,W,1
+L'Nya,V,2
+L'Shawa,I,2
+Aga Medical Institute,R,2
+Tasn Mining Ops,I,2
+Mel-Ya Foundry,I,3
+Crixia Metals,I,3
+Yandro Shipyards,Y,3
+Krynk,P,4
+Mildraz,V,4
+Police HQ,S,4
+Yashi Traders,I,4
+Tilminra,P,5
+Immigration Authority,S,5
+Tilminra Alders,V,5
+Intu Hospitality,V,5
+DS-601,S,6
+TSN R&D Directive,R,6
+TSN Xenoscience,R,6
+TSN Materials Science,R,7
+DS-1231,S,7
+DS-1310,S,7
+TSN Refinery,F,7
+Sumri Gate,G,8
+Anhoto,S,8
+Krynk Welcome,S,8
+Aydos,S,8
+WP-1208,W,8
+WP-1211,W,8
+WP-1244,W,8

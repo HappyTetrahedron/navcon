@@ -1,15 +1,23 @@
-Jhohara Gate,G,1
-Gilmik Mining,M,1
+Gilmik Mining,S,1
 Routing Office,V,1
+Arvo Transport,SHIP,1
+Jhohara Gate,G,1
+Defense Grid C,S,2
 Il'Is'Kar Gate,G,2
-Defense Grid C,W,2
 Golgagi,Y,5
-Inzisda Nebula Refinery,M,5
-Vrae Outpost,C,5
+Inzisda Nebula Refinery,I,5
+Vrae Outpost,S,5
+Gilmik Transport,SHIP,5
+Shnikshnak Transport,SHIP,5
+Inzisda Transport,SHIP,5
 Vrae Pulsar,PUL,7
 Khoros Gate,G,7
+Seztanach,S,8
+Ganchez,S,8
+Athorn Gate,G,8
+Defense Grid A,S,9
+Defense Grid B,S,9
+Defense Grid D,S,9
 Ka'Morlin Gate,G,9
-Defense Grid A,W,9
-Defense Grid B,W,9
-Defense Grid D,W,9
-Athorn Gate,G,12
+So Transport,SHIP,9
+Moon Moon,UNK,10

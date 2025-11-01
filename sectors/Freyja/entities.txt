@@ -1,0 +1,19 @@
+Gate Control & Customs,V,3
+Corus Gate,G,3
+Mendeleyjev Base,R,5
+Freyja Control,C,5
+WP-07,W,5
+WP-06,W,5
+SY-19,Y,5
+Dikro Mining,I,5
+Dikro Gasses,I,5
+Kalu Polytech,R,6
+Vilnara Gate,G,7
+Freyja Forum,V,7
+Freyja Vega Casino,S,7
+SB-52,SB,8
+CR-52,CR,8
+SB-53,SB,8
+CR-53,CR,8
+Y'trq,H,8
+Milliways Resort,V,8

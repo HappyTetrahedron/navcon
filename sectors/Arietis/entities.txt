@@ -1,27 +1,26 @@
-Fortir,S,1
-Callee,S,1
-Aliar,S,1
-DS-16,S,2
-Arietis Command,S,2
-DS-31,S,2
+Aliar,V,1
+Callee,V,1
+Fortir,V,1
+Arietis Command,C,2
 DS-52,S,2
+DS-16,S,2
 DS-22,S,2
-RS-48X,S,3
-RS-82X,S,3
-Mira,S,3
-Kala,S,3
+DS-31,S,2
 Poseidon Gate,G,3
-Pr81L,O,3
-Tallith,S,4
-Rannar,S,4
-DS-37,S,4
+RS-82X,R,3
+RS-48X,R,3
+Kala,V,3
+Mira,V,3
 Atlantis Gate,G,4
-M-552,S,4
-Aram,S,5
-M-142,S,5
-M-080,S,5
-Medusa,S,6
-Aries,S,6
-Ashima,S,6
-Draeka,S,6
-Waypoint 89,G,6
+Tallith,V,4
+Rannar,V,4
+DS-37,S,4
+M-552,I,4
+M-142,I,5
+M-080,I,5
+Aram,V,5
+Waypoint 89 Gate,G,6
+Medusa,V,6
+Ashima,V,6
+Aries,V,6
+Draeka,V,6

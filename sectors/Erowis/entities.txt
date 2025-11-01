@@ -1,8 +1,11 @@
 Drenan Gate,G,1
 Drenan Gatekeeper,S,1
-Ashtarra Dry Dock,SY,1
-Erowis Master,C,5
-Op Refinery,R,5
-Thith Denabite,M,5
-Krellis Gatekeeper,S,6
+Ashtarna Dry Dock,Y,1
+Iniyi Trading Post,S,2
+Cloak1,SB,2
+Cloak2,SB,2
+Erowis Master,S,5
+Op Refinery,V,5
+Thith Denabite,SLS,5
 Krellis Gate,G,6
+Krellis Gatekeeper,SLS,6

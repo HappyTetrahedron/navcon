@@ -1,0 +1,23 @@
+Kyran,S,1
+I-25,I,1
+I-19,I,1
+I-90,I,1
+I-87,I,1
+Aurus,F,1
+Vortau,S,3
+Tiridian Gate,G,3
+Atlantis Gate,G,4
+Al'Mare Command,C,5
+I-14,I,5
+Kinton,V,6
+Hawthorne,V,6
+Calder,V,6
+Nylund,V,6
+RS-291,R,6
+Armiger,S,7
+I-447,I,7
+I-809,I,7
+I-041,I,7
+Syrese,F,7
+RS-771,R,8
+RS-701,R,9

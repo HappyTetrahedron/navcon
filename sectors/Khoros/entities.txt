@@ -1,2 +1,15 @@
+Mining Collective,F,1
+Khoros Watchpost,S,1
+Khoros,P,1
+Mrianath,UNK,2
 Mria Gate,G,3
+Ingal Post,V,3
+Eulis Gate,G,4
+Yadina Post,V,4
+Korath Foundry,I,7
+Kilti Ores,I,7
+Joab Minerals,I,7
+Misha Denabite,F,7
 Vrae Gate,G,8
+Vraenath,UNK,8
+Chachatz,S,8

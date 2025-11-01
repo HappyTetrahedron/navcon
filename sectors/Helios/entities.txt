@@ -1,21 +1,21 @@
-DS-1126,DS,2
-WP-92Q,WP,2
-WP-48T,WP,2
 Athorn Gate,G,2
-Procanthi,I,3
-Procanthi Shipyard,SY,3
+DS-1126,S,2
+WP-48T,W,2
+WP-92Q,W,2
 Tibur Gate,G,3
-Polydeukes Market,V,4
+Procanthi,I,3
+Procanthi SY,Y,3
 Castor Gate,G,4
-Planet Helios,P,5
-Helios Memorial,ART,5
-Helios Habitation,V,5
+Polydeukes Market,V,4
+Helios,P,5
+Helios Memorial,S,5
+Helios Habitat,V,5
 Helios Command,C,6
-WP-81K,WP,6
-WP-52A,WP,6
+WP-52A,W,6
+WP-81K,W,6
 Semelei Processors,I,7
-Brontes Ores,M,7
-Nyx Denabite,M,7
-Leda Denabite,M,7
-Zarkov Labs,R,8
+Leda Denabite,F,7
+Nyx Denabite,F,7
+Brontes Ores,I,7
 Atilia Gate,G,8
+Zarkov Labs,R,8

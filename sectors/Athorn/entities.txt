@@ -1,0 +1,12 @@
+Chonos,S,1
+Vrae Gate,G,1
+Burin Gate,G,2
+Slipstream Convocation,DP,2
+Wreck A31,UNK,3
+Wreck A48,UNK,3
+Wreck A33,UNK,3
+Wreck B40,UNK,4
+Wreck B41,UNK,4
+Wreck B42,UNK,4
+Athorn Outpost,S,6
+Helios Gate,G,6

@@ -1,11 +1,13 @@
-DS-111,DS,1
-Phinmor Oasis,V,1
 Tyr Gate,G,1
-DS-133,DS,2
-Modei Shipping,I,2
-Master Miners,M,2
-Golden Foundry,F,2
-Sela Smeltery,F,2
-Loags Denabite,M,3
-DS-188,DS,4
+DS-111,S,1
+Phinmor Oasis,V,1
+Ashia Gate,G,2
+Modei Shipping,V,2
+DS-133,S,2
+Master Miners,I,2
+Sela Smeltery,I,2
+Golden Foundry,I,2
+Loags Denabite,F,3
+Waypoint 46 Gate,G,4
+DS-188,S,4
 Agros Cantina,V,4

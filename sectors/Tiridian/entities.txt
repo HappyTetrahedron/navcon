@@ -1,18 +1,18 @@
 Al'Mare Gate,G,1
-I-31,S,2
-I-23,S,2
-Tiridian Command,S,3
-Jerum Station,S,3
-Tigrim Station,S,3
-I-901,S,4
-I-34,S,4
-I-20,S,4
-I-556,S,4
-SY-67,S,5
-I-73,S,5
-I-46,S,5
-I-72,S,5
-I-07,S,5
-I-05,S,5
-I-09,S,5
-R-55,S,12
+I-31,F,2
+I-32,F,2
+Tiridian Command,C,3
+Tigrim Station,V,3
+Jerum Station,V,3
+I-901,I,4
+I-34,I,4
+I-20,I,4
+I-556,I,4
+I-73,I,5
+I-46,I,5
+I-72,I,5
+SY-67,Y,5
+I-07,I,5
+I-05,I,5
+I-09,I,5
+R-55,R,12

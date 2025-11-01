@@ -1,4 +1,10 @@
-Class 9 Planet,P,6
-Eyukua,G,4
-Hjorden,G,9
-Outpost-91,S,9
+Eyukua Gate,G,4
+Planet,UNK,6
+Hjorden Gate,G,9
+SY-18,Y,9
+Outpost 91,SHIP,9
+BY-23,CR,9
+SR-76,SB,9
+SR-24,SB,9
+SR-59,SB,9
+SR-38,SB,9

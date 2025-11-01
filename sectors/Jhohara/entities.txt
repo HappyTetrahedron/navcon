@@ -1,18 +1,28 @@
-Mintou,M,1
-Minara,D,2
-Molokore Farbricators,V,2
-Molokore Mining Facility,M,2
-Manori,V,3
-Iliagram Mining,M,3
-Randomi Mining,M,3
-Rhonkar Mining,M,3
-Menapi Research Laboratory,R,5
-Vrae Gate,G,6
-Malla Palla,D,7
-Mastigophorous,DS,9
-E-DP-1,DS,10
-E-DP-3,DS,10
-E-DP-2,DS,10
+Mintou,S,1
+Minara,S,2
+Setmari Gate,G,2
+Manori,S,3
+BlackholeA,H,5
+Menapi Research Labratory,S,5
+DP1,W,6
+DP2,W,6
+DP3,W,6
+DP4,W,6
+DP5,W,6
+DP6,W,6
+DP7,W,6
+DP8,W,6
+SY-1,Y,6
+SY-4,Y,6
+SY-3,Y,6
+SY-5,Y,6
+SY-2,Y,6
+SY-6,Y,6
+Vrae Gate,G,7
+Malla Palla,S,8
+Mastigophorous Station,S,9
 Eulis Gate,G,10
-Melintari,D,11
-Rintas,SKN-B,12
+E-DP-2,W,10
+E-DP-3,W,10
+E-DP-1,W,10
+Melintari Station,S,11

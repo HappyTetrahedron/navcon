@@ -1,2 +1,3 @@
 Erebus Gate,G,2
+Gertrude,H,3
 Volantis Gate,G,8

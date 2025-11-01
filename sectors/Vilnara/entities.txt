@@ -1,14 +1,15 @@
 Zu Chongzhi Astrolab,R,1
-Gohtzao-de,V,2
 Loria Gate,G,2
-DS-555,DS,4
+Gohtzao-de,V,2
 Freyja Gate,G,4
-DS-26T,DS,5
-Kushihlwa Exchange,V,5
+DS-555,S,4
 Vanir Gate,G,5
+Ebusku,H,5
+Kusihlwa Exchange,V,5
+DS-26T,S,5
+Sheng Gaowan Mining,I,7
+Luanchao Ores,I,7
 Ying'er Forges,I,7
-Sheng Gaowan Mining,M,7
-Luanchao Ores,M,7
-DS-500,DS,8
-Vilnara Post,V,8
 Tyr Gate,G,8
+Vilnara Post,V,8
+DS-500,S,8
