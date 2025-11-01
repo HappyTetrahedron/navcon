@@ -1,0 +1,24 @@
+Adrissa,H,1
+Drenan Gate,G,2
+Shognoth,S,2
+Hata Stellar Remnant,P,3
+Lokuli'Bala Gate,G,3
+Torg Gasworks,I,4
+Torg Denabite,F,4
+Torg Metals,I,4
+Ashkha Warehouses,S,4
+Security Outpost 16,W,4
+Ashkha Landing,V,4
+Security Outpost 22,W,4
+Torg Refinery,S,5
+Torg Industries,S,5
+DefPost 26,W,5
+DefPost 29,W,5
+DefPost 32,W,5
+Oubli Gate,G,7
+Kagra Checkpoint,S,7
+No'Ma Management,S,9
+Oophitzi Shipyards,Y,9
+Monza Gas Collectors,I,9
+Assera Mining,V,9
+Setmari Gate,G,9
