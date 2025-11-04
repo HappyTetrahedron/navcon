@@ -10,8 +10,7 @@ Farosh,V,3
 Farosh Denabite,F,3
 Triton Refuge,V,5
 Cassandra Observation,R,6
-Cassandra Black Hole,H,6
-Cassandra,UNK,6
+Cassandra,H,6
 I-402,F,7
 SY-402,Y,7
 Denabite Derby,F,7

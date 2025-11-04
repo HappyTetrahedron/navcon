@@ -1,4 +1,4 @@
-Planet,UNK,3
+Planet,P,3
 Drake,S,3
 EX 001,H,6
 EX 002,H,6

@@ -1,6 +1,5 @@
 Adrissa,H,1
 Drenan Gate,G,2
-Shognoth,S,2
 Hata Stellar Remnant,P,3
 Lokuli'Bala Gate,G,3
 Torg Gasworks,I,4

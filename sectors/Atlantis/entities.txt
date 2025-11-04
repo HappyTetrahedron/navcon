@@ -1,21 +1,21 @@
 Waypoint 60 Gate,G,1
-B-6V,UNK,1
-B-2C,UNK,1
-B-9F,UNK,1
-B-5T,UNK,1
-B-8U,UNK,1
-B-4J,UNK,2
-B-4H,UNK,2
-B-7R,UNK,2
-B-6G,UNK,2
-B-3D,UNK,2
+B-6V,MK,1
+B-2C,MK,1
+B-9F,MK,1
+B-5T,MK,1
+B-8U,MK,1
+B-4J,MK,2
+B-4H,MK,2
+B-7R,MK,2
+B-6G,MK,2
+B-3D,MK,2
 RS-00,R,2
-B-2Q,UNK,3
-B-9P,UNK,3
-B-0E,UNK,3
-B-6S,UNK,3
-B-7Y,UNK,3
-B-1A,UNK,3
+B-2Q,MK,3
+B-9P,MK,3
+B-0E,MK,3
+B-6S,MK,3
+B-7Y,MK,3
+B-1A,MK,3
 WP-573,W,4
 WP-216,W,4
 WP-771,W,4
@@ -120,8 +120,7 @@ RS-261,R,18
 Honor,V,18
 Ordan,S,18
 A'Aureln,S,18
-MatildaBH,H,18
-Matilda,UNK,18
+Matilda,H,18
 Elnan,S,18
 Arietis Gate,G,18
 Seer Entertainment Systems,I,18

@@ -23,7 +23,6 @@ Ladna Labs,R,6
 Nessin,V,6
 Betos Bazaar,V,7
 Onzi Oasis,V,7
-Olvido,UNK,8
 Olvido,H,8
 Quee,I,8
 Gi'Yanu Mall,V,8

@@ -18,7 +18,6 @@ WP-20,SB,6
 WP-21,SB,6
 Uvizmai Control,S,6
 Drenan Gate,G,7
-Intas,S,7
 Ut'Att Command,S,8
 WP-16,W,8
 WP-29,W,8

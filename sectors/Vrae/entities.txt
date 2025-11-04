@@ -12,12 +12,10 @@ Shnikshnak Transport,SHIP,5
 Inzisda Transport,SHIP,5
 Vrae Pulsar,PUL,7
 Khoros Gate,G,7
-Seztanach,S,8
-Ganchez,S,8
 Athorn Gate,G,8
 Defense Grid A,S,9
 Defense Grid B,S,9
 Defense Grid D,S,9
 Ka'Morlin Gate,G,9
 So Transport,SHIP,9
-Moon Moon,UNK,10
+Moon Moon,P,10

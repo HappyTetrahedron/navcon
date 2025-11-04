@@ -2,27 +2,11 @@ Mria Gate,G,1
 DS 903,S,1
 WP-123J,W,1
 WP-67U,W,1
-Tibur Prime,UNK,2
-PA,UNK,2
-PB,UNK,2
-PC,UNK,2
-PD,UNK,2
-PE,UNK,2
-PF,UNK,2
-PG,UNK,2
-PH,UNK,2
+Tibur Prime,P,2
 Tibur Mall,V,2
 Alders Council,V,2
 Enyalius Gate,G,3
 Astral Agora,V,3
---,UNK,3
---,UNK,3
---,UNK,3
---,UNK,3
---,UNK,3
---,UNK,3
---,UNK,3
---,UNK,3
 Tibur Command,C,4
 DS-59,S,4
 WP-99T,W,4

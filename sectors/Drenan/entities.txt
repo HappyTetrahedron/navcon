@@ -7,13 +7,13 @@ Ronn Factories,V,2
 Ixaqa Mining,S,3
 Hunting Comms,CR,4
 Whale Sensors,SB,4
-Marker Buoy 1,UNK,4
-Marker Buoy 2,UNK,4
-Marker Buoy 3,UNK,4
-Marker Buoy 4,UNK,4
-Marker Buoy 5,UNK,4
-Marker Buoy 6,UNK,4
-Marker Buoy 7,UNK,4
+Marker Buoy 1,MK,4
+Marker Buoy 2,MK,4
+Marker Buoy 3,MK,4
+Marker Buoy 4,MK,4
+Marker Buoy 5,MK,4
+Marker Buoy 6,MK,4
+Marker Buoy 7,MK,4
 Erowis Gate,G,5
 Anta Market,S,5
 Security Pod 16,W,5
@@ -35,7 +35,6 @@ Onwia Gate,G,8
 Onwia Guard,S,8
 Agnia,P,11
 U'o Directorate,S,11
-Dred Falsu,S,12
 Ekka Shipyards,Y,12
 Danil Denabite,I,12
 Sensor Array 1,SB,12

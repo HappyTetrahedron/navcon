@@ -1,5 +1,5 @@
 Eyukua Gate,G,4
-Planet,UNK,6
+Planet,P,6
 Hjorden Gate,G,9
 SY-18,Y,9
 Outpost 91,SHIP,9

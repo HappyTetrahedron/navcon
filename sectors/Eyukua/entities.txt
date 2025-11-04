@@ -1,6 +1,6 @@
 Waypoint 78 Gate,G,2
 BH-2,H,2
-Planet,UNK,3
+Planet,P,3
 H-81,I,4
 S-90,S,4
 L-12,M,4
@@ -33,7 +33,7 @@ K-53,M,11
 U-88,S,11
 P-42,I,11
 C-49,M,11
-Planet,UNK,12
+Planet,P,12
 Y-51,M,12
 S-67,M,12
 B-33,M,12
