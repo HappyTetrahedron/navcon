@@ -31,6 +31,10 @@
 			$entity['description'] = "Refinery";
 		} else if ($entity['type'] == "PUL") {
 			$entity['description'] = "Pulsar";
+		} else if ($entity['type'] == "CO") {
+			$entity['description'] = "Comet";
+		} else if ($entity['type'] == "A") {
+			$entity['description'] = "Asteroid";
 		} else if ($entity['type'] == "SLS") {
 			$entity['description'] = "Slingshot Installation";
 		} else if ($entity['type'] == "MEG") {
@@ -173,4 +177,3 @@
         include 'sectorEntitiesList.php';?>
     </table>
 
-            

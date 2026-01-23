@@ -1,0 +1,2 @@
+Hjorden Gate,G,6
+Kalixa Gate,G,12

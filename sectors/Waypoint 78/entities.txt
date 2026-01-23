@@ -1,0 +1,2 @@
+Eyukua Gate,G,1
+Kalixa Gate,G,3
