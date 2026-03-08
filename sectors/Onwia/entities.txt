@@ -8,5 +8,6 @@ Naki Mining,V,5
 Onwia Ship Yards,Y,5
 Grand Terminal,S,5
 Ximni Factories,I,5
+Moon,P,5
 Gzhr,S,8
 Ishka Gasses,I,8

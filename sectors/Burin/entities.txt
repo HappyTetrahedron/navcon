@@ -1,5 +1,5 @@
 Laminar Flow,DP,1
-Da'Riln Gate,G,1
+Sedrun Gate,G,1
 Turbulent Flow,DP,1
 Buoyant Mission,DP,1
 Covenant of Continuity,DP,2
@@ -15,6 +15,8 @@ Flow,A,2
 Slurp,P,3
 Backwater,P,3
 Faith,A,3
+Da'Riln Gate,G,3
+Staggering Flow,DP,3
 Burin,P,4
 Riptide Mission,DP,4
 Backwash Mission,DP,4
